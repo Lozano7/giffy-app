@@ -8,7 +8,7 @@ const getGifs = async (url, setGifs) => {
       url: img.images.downsized_medium.url,
     };
   });
-  return gifs;
+  setGifs(gifs);
 };
 
 export default getGifs;

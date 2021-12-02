@@ -1,5 +1,4 @@
 import 'animate.css';
-import React from 'react';
 import AddCategorie from './components/AddCategorie';
 import GifGrid from './components/GifGrid/GifGrid';
 import useFetchGifsDefault from './hooks/useFetchGifsDefault';

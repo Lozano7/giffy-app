@@ -14,6 +14,7 @@ const GifGrid = ({ categories, imagesDefault }) => {
         <Loading />
       ) : (
         <div className='grid'>
+          {console.log(images)}
           {images.map((img) => (
             <Card key={img.id} src={img.url} title={img.title} />
           ))}

@@ -14,10 +14,7 @@ const useSetGifs = (url, imagesDefault) => {
 
   useEffect(() => {
     setLoading(true);
-    getGifs(url).then((response) => {
-      setImages(response);
-      setLoading(false);
-    });
+    getGifs(url, setImages);
   }, [url]);
 
   return { images, loading };

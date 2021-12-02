@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import getGifs from '../helpers/getGifs';
 
 const useGifs = () => {
@@ -11,7 +11,7 @@ const useGifs = () => {
 
   useEffect(() => {
     const url = `https://api.giphy.com/v1/gifs/trending?api_key=1VWMilfdy4gxehjL7rKPfROdPwv5UbUk`;
-    getGifs(url).then((response) => setImagesDefault(response));
+    getGifs(url, setImagesDefault);
   }, []);
 
   return {
