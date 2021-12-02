@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/giffy-app/static/css/main.42e53759.chunk.css",
+    "main.js": "/giffy-app/static/js/main.015b7fdf.chunk.js",
+    "main.js.map": "/giffy-app/static/js/main.015b7fdf.chunk.js.map",
+    "runtime-main.js": "/giffy-app/static/js/runtime-main.20211278.js",
+    "runtime-main.js.map": "/giffy-app/static/js/runtime-main.20211278.js.map",
+    "static/css/2.a1596f27.chunk.css": "/giffy-app/static/css/2.a1596f27.chunk.css",
+    "static/js/2.75402d76.chunk.js": "/giffy-app/static/js/2.75402d76.chunk.js",
+    "static/js/2.75402d76.chunk.js.map": "/giffy-app/static/js/2.75402d76.chunk.js.map",
+    "index.html": "/giffy-app/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/giffy-app/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.42e53759.chunk.css.map": "/giffy-app/static/css/main.42e53759.chunk.css.map",
+    "static/js/2.75402d76.chunk.js.LICENSE.txt": "/giffy-app/static/js/2.75402d76.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20211278.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.75402d76.chunk.js",
+    "static/css/main.42e53759.chunk.css",
+    "static/js/main.015b7fdf.chunk.js"
+  ]
+}
