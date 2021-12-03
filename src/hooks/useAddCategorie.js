@@ -9,7 +9,7 @@ const useAddCategorie = (handleAdd) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (inputValue.trim().length > 2) {
+    if (inputValue.trim().length > 0) {
       handleAdd(inputValue);
       setInputValue('');
     }

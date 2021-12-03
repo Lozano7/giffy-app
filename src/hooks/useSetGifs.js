@@ -13,7 +13,6 @@ const useSetGifs = (url, imagesDefault) => {
   }, [imagesDefault]);
 
   useEffect(() => {
-    setLoading(true);
     getGifs(url, setImages);
   }, [url]);
 

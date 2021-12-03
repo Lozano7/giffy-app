@@ -14,9 +14,12 @@ const GifGrid = ({ categories, imagesDefault }) => {
         <Loading />
       ) : (
         <div className='grid'>
-          {console.log(images)}
           {images.map((img) => (
-            <Card key={img.id} src={img.url} title={img.title} />
+            <Card
+              key={img.id + '-' + img.title + `${Math.random() * 1000}`}
+              src={img.url}
+              title={img.title}
+            />
           ))}
         </div>
       )}
